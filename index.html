@@ -1,55 +1,42 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>My BlogSite</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        header {
-            background-color: navy;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            color: yellow;
-        }
-        main {
-            padding: 20px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Knowledge Blog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My BlogSite</h1>
-        <p>Sharing Knowledge and Updates</p>
-    </header>
+  <header>
+    <h1>My Knowledge Blog</h1>
+    <nav><a href="index.html">Home</a> | <a href="contact.html">Contact</a></nav>
+  </header>
 
-    <nav>
-        <a href="index.html">🏠 Home</a>
-        <a href="blog.html">📖 Blog</a>
-        <a href="contact.html">📩 Contact</a>
-    </nav>
+  <main>
+    <section id="blog-list">
+      <h2>Latest Posts</h2>
+      <ul>
+        <li>
+          <h2>How to Start with HTML</h2>
+          <p>Short intro on HTML structure, tags, and building simple pages.</p>
+        </li>
 
-    <main>
-        <h2>Home Page</h2>
-        <p>Welcome to my BlogSite! Use the navigation bar above to explore the blog list and contact page.</p>
-    </main>
+        <li>
+          <h2>CSS Basics for Beginners</h2>
+          <p>Quick guide to styling: selectors, layout, and responsive tips.</p>
+        </li>
+
+        <li>
+          <h2>Simple JavaScript Tricks</h2>
+          <p>Small scripts to make pages interactive without frameworks.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Your Name</p>
+  </footer>
 </body>
 </html>
 
